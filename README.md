@@ -11,7 +11,7 @@ SpanBERT/code/run_squad.py, which incorporates the commit from pull request http
 for us to run with the `apex` library successfully. 
 
 We (almost) reproduced the F1 score 83.6 with SpanBERT-base model evaluated on SQuAD 2.0 dev sets. The detail steps can be found in our Colab notebook
-`HW3_SpanBERT_reproduced_f1.ipynb`. In terms of runtime, we run in GPU + high RAM mode with my personal Colab Pro account. Notice that even with this setup, the 
+`https://github.com/gn03249822/11-747-Projects/blob/main/HW3_SpanBERT_reproduced_f1.ipynb`. In terms of runtime, we run in GPU + high RAM mode with my personal Colab Pro account. Notice that even with this setup, the 
 recommended config of finetuning on SQuAD 2.0 by Facebook still cause GPU out-of-memory error. After experimentation, we decreased the train and eval batchsizes, both from 32 to 16, and was able to finish training on the downstream finetuning task in around 7.5 hours. 
 
 The final result can be found in /code/SpanBERT/squad_output/eval_results.txt
