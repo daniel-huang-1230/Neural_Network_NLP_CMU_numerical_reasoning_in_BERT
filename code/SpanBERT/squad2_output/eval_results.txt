@@ -1,0 +1,17 @@
+HasAns_exact = 81.66329284750337
+HasAns_f1 = 88.02528196756217
+HasAns_total = 5928
+NoAns_exact = 70.95037846930194
+NoAns_f1 = 70.95037846930194
+NoAns_total = 5945
+batch_size = 16
+best_exact = 80.63673881916955
+best_exact_thresh = -5.0234375
+best_f1 = 83.34820529512551
+best_f1_thresh = -5.0234375
+epoch = 3
+exact = 76.29916617535585
+f1 = 79.47560612344888
+global_step = 25311
+learning_rate = 2e-05
+total = 11873
