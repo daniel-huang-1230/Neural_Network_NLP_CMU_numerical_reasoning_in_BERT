@@ -5,7 +5,7 @@ Contributors:
 2. Yi Shen (Eason), yishen@andrew.cmu.edu
 3. Tianhao Wang (Danny), tianhao2@andrew.cmu.edu
 
-HW3: 
+## HW3: 
 
 The /code directory contains the source code from https://github.com/facebookresearch/SpanBERT. The only modification is on 
 SpanBERT/code/run_squad.py, which incorporates the commit from pull request https://github.com/facebookresearch/SpanBERT/pull/60 that is necessary 
@@ -43,7 +43,7 @@ Finally, we omitted to commit our downloaded pretrained model in this repo, as t
 
 
 
-HW4
+### HW4:
 
 It contains the source code of GenBERT with our re-implementation modification to perform pruning an quantization.  
-Please refer to the Google Colab notebooks for the execution results. 
+Please refer to the Google Colab notebook `https://github.com/gn03249822/11-747-Projects/blob/main/Inject_prune.ipynb` for the execution results. 
